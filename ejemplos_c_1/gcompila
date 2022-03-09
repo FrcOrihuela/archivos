@@ -1,0 +1,6 @@
+if [ -f $1.c ]
+then
+gcc $1.c -o $1 -lm -O3
+else 
+echo "no existe el archivo $1.c"
+fi
